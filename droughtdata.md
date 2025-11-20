@@ -49,67 +49,67 @@ Gives clear understanding of drought patterns, outliers, variable connections, a
 ## Observations for Each Visual
 1. Boxplots
 
-Most variables are skewed with many outliers.
+- Most variables are skewed with many outliers.
 
-Severity and Duration show extreme high values.
+- Severity and Duration show extreme high values.
 
-Alertscore mostly stays at 1 with few higher cases.
+-Alertscore mostly stays at 1 with few higher cases.
 
 2. Histograms
 
-Severity and Duration are right-skewed, meaning large events are rare.
+- Severity and Duration are right-skewed, meaning large events are rare.
 
-Alertscore and Episodealertscore mostly remain at low values.
+- Alertscore and Episodealertscore mostly remain at low values.
 
-Longitude and Latitude are widely spread, showing global coverage.
+- Longitude and Latitude are widely spread, showing global coverage.
 
 3. Pairplot
 
-Weak relationships between most variables.
+- Weak relationships between most variables.
 
-Alertscore and Episodealertscore show a visible positive trend.
+- Alertscore and Episodealertscore show a visible positive trend.
 
-No strong clustering in the data.
+- No strong clustering in the data.
 
 4. Scatterplot: Severity vs Duration
 
-Most events have low severity and short duration.
+- Most events have low severity and short duration.
 
-Few extreme cases show high severity.
+- Few extreme cases show high severity.
 
-No clear linear relationship.
+- No clear linear relationship.
 
 5. Scatterplot: Alertscore vs Episodealertscore
 
-Positive relationship: higher Alertscore usually matches higher Episodealertscore.
+- Positive relationship: higher Alertscore usually matches higher Episodealertscore.
 
-Few deviations exist.
+- Few deviations exist.
 
 6. Severity Trend Over Time
 
-Severity fluctuates heavily with sharp peaks.
+- Severity fluctuates heavily with sharp peaks.
 
-No seasonal or repeated pattern.
+- No seasonal or repeated pattern.
 
-Extreme events appear randomly over time.
+- Extreme events appear randomly over time.
 
 7. Correlation Heatmap
 
-Strong correlation only between Alertscore and Episodealertscore.
+- Strong correlation only between Alertscore and Episodealertscore.
 
-Other variables show weak or no correlation.
+- Other variables show weak or no correlation.
 
-Geographic values have minimal relationship with severity or duration.
+- Geographic values have minimal relationship with severity or duration.
 ## Summary of Findings 
 
-Most drought events are mild with low alert scores.
+- Most drought events are mild with low alert scores.
 
-A few extreme events appear as strong outliers.
+- A few extreme events appear as strong outliers.
 
-Severity and duration do not show a clear pattern together.
+- Severity and duration do not show a clear pattern together.
 
-Alertscore and Episodealertscore move closely together.
+- Alertscore and Episodealertscore move closely together.
 
-Location values are spread with no region showing consistent impact.
+- Location values are spread with no region showing consistent impact.
 
-Severity over time rises sharply at random points.
+- Severity over time rises sharply at random points.
