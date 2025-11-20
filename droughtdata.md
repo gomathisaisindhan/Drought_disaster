@@ -47,7 +47,7 @@ This project explores a drought dataset to understand patterns in alert scores, 
 Gives clear understanding of drought patterns, outliers, variable connections, and event behavior through visual exploration.
  
 ## Observations for Each Visual
-# 1. Boxplots
+### 1. Boxplots
 
 - Most variables are skewed with many outliers.
 
@@ -55,7 +55,7 @@ Gives clear understanding of drought patterns, outliers, variable connections, a
 
 -Alertscore mostly stays at 1 with few higher cases.
 
-# 2. Histograms
+### 2. Histograms
 
 - Severity and Duration are right-skewed, meaning large events are rare.
 
@@ -63,7 +63,7 @@ Gives clear understanding of drought patterns, outliers, variable connections, a
 
 - Longitude and Latitude are widely spread, showing global coverage.
 
-# 3. Pairplot
+### 3. Pairplot
 
 - Weak relationships between most variables.
 
@@ -71,7 +71,7 @@ Gives clear understanding of drought patterns, outliers, variable connections, a
 
 - No strong clustering in the data.
 
-# 4. Scatterplot: Severity vs Duration
+### 4. Scatterplot: Severity vs Duration
 
 - Most events have low severity and short duration.
 
@@ -79,13 +79,13 @@ Gives clear understanding of drought patterns, outliers, variable connections, a
 
 - No clear linear relationship.
 
-# 5. Scatterplot: Alertscore vs Episodealertscore
+### 5. Scatterplot: Alertscore vs Episodealertscore
 
 - Positive relationship: higher Alertscore usually matches higher Episodealertscore.
 
 - Few deviations exist.
 
-# 6. Severity Trend Over Time
+### 6. Severity Trend Over Time
 
 - Severity fluctuates heavily with sharp peaks.
 
@@ -93,7 +93,7 @@ Gives clear understanding of drought patterns, outliers, variable connections, a
 
 - Extreme events appear randomly over time.
 
-# 7. Correlation Heatmap
+### 7. Correlation Heatmap
 
 - Strong correlation only between Alertscore and Episodealertscore.
 
